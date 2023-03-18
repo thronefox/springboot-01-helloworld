@@ -141,5 +141,6 @@ public class TestController {
     public static void main(String[] args) {
         System.out.println("测试git");
         System.out.println("我再输出一行");
+        System.out.println("hot-fix first-commit");
     }
 }
