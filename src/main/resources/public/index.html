@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    欢迎来到springboot!
+    <form action="/user" method="get">
+        <button type="submit">get方式提交</button>
+    </form>
+    <form action="/user" method="post">
+        <button type="submit">post方式提交</button>
+    </form>
+    <form action="/user" method="POST">
+        <input hidden name="_method" value="delete">
+        <button type="submit">delete方式提交</button>
+    </form>
+    <form action="/user" method="POST">
+        <input hidden name="_method" value="put">
+        <button type="submit">put方式提交</button>
+    </form>
+</body>
+</html>

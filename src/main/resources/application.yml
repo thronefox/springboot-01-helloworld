@@ -1,0 +1,8 @@
+#spring:
+#  mvc:
+#    static-path-pattern: /res/**
+spring:
+  mvc:
+    hiddenmethod:
+      filter:
+        enabled: true
